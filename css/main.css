@@ -1,0 +1,71 @@
+.navbar-inverse {
+    background-color: #171717;
+}
+.nav a {
+    font-size: 20px;
+}
+
+body {
+    color: whitesmoke;
+    padding-top: 20px;
+    background-color: black;
+}
+
+header {
+    padding-top: inherit;
+    padding-bottom: 20px;
+}
+
+section {
+    background-color: #282828;
+}
+
+.work_description {
+    text-align: left;
+}
+
+.section_header h3 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.vimeo_vids iframe {
+    position: absolute;
+    left: 25%;
+    transform: translate(-25%, -25%);
+}
+.vimeo_vids p {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    left: 40%;
+}
+
+p {
+
+    margin: 20px 30%;
+    text-align: justify;
+}
+
+.blank_row {
+    height: 10px !important; /* overwrites any other rules */
+    background-color: black;
+}
+
+table.center {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+th, td {
+    color: whitesmoke;
+}
+th {
+    text-decoration: underline;
+}
+td {
+    font-size: medium;
+}
+.game_credits {
+    list-style-type: none;
+}
