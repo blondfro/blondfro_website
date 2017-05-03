@@ -37,7 +37,7 @@
             $AutoPlay: 1,
             $SlideWidth: 840,
             $Cols: 2,
-            $Align: 400,
+            $Align: 350,
             // $SlideSpacing: 20,
             $SlideDuration: 800,
             $SlideEasing: $Jease$.$OutQuint,
