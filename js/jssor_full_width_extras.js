@@ -34,7 +34,7 @@
 
         //video slide options
         var jssor_2_options = {
-            $AutoPlay: 1,
+            $AutoPlay: 0,
             $SlideWidth: 840,
             $Cols: 2,
             $Align: 350,
