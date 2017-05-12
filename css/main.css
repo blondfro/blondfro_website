@@ -16,6 +16,15 @@ body {
     background-color: black;
 }
 
+h1, h2, h3 {
+padding: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 20px 25%;
+}
+
 header {
     padding-top: inherit;
     padding-bottom: 20px;
@@ -25,11 +34,20 @@ section {
     background-color: #282828;
 }
 
+figure {
+    display: table;
+    width: 500px;
+}
+figcaption {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .work_description {
     text-align: left;
 }
 
-.section_header h2 {
+.section_header h2, h3 {
     text-decoration: underline;
     text-align: center;
 }
@@ -46,10 +64,7 @@ section {
     left: 40%;
 }
 
-p {
-    font-size: 1.5em;
-    margin: 20px 25%;
-}
+
 @media only screen and (max-width: 400px) {
     p { font-size: 50%;}
 }

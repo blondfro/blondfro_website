@@ -78,6 +78,7 @@
         var jssor_main_banner = new $JssorSlider$("main_banner", jssor_1_options);
         var animation_slider = new $JssorSlider$("animation_slider", jssor_2_options);
         var modelWork_slider = new $JssorSlider$("modelWork_slider", jssor_2_options);
+        var renderingWork_slider = new $JssorSlider$("renderingWork_slider", jssor_2_options);
         var drawingWork_slider = new $JssorSlider$("drawingWork_slider", jssor_3_options);
 
 
@@ -87,6 +88,7 @@
             var refSize = jssor_main_banner.$Elmt.parentNode.clientWidth;
             var refSize = animation_slider.$Elmt.parentNode.clientWidth;
             var refSize = modelWork_slider.$Elmt.parentNode.clientWidth;
+            var refSize = renderingWork_slider.$Elmt.parentNode.clientWidth;
             var refSize = drawingWork_slider.$Elmt.parentNode.clientWidth;
 
             if (refSize) {
@@ -94,6 +96,7 @@
                 jssor_main_banner.$ScaleWidth(refSize);
                 animation_slider.$ScaleWidth(refSize);
                 modelWork_slider.$ScaleWidth(refSize);
+                renderingWork_slider.$ScaleWidth(refSize);
                 drawingWork_slider.$ScaleWidth(refSize);
 
             }
