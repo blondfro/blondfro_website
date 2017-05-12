@@ -75,12 +75,25 @@
             }
         };
 
+        //logo options
+        var jssor_4_options = {
+            $AutoPlay: 1,
+            $Idle: 0,
+            $AutoPlaySteps: 4,
+            $SlideDuration: 2000,
+            $SlideEasing: $Jease$.$Linear,
+            $PauseOnHover: 4,
+            $SlideWidth: 100,
+            $SlideHeight: 50,
+            $Cols: 7
+        };
+
         var jssor_main_banner = new $JssorSlider$("main_banner", jssor_1_options);
         var animation_slider = new $JssorSlider$("animation_slider", jssor_2_options);
         var modelWork_slider = new $JssorSlider$("modelWork_slider", jssor_2_options);
         var renderingWork_slider = new $JssorSlider$("renderingWork_slider", jssor_2_options);
         var drawingWork_slider = new $JssorSlider$("drawingWork_slider", jssor_3_options);
-
+        var softwareList_slider = new $JssorSlider$("softwareList_slider", jssor_4_options);
 
         /*responsive code begin*/
         /*remove responsive code if you don't want the slider scales while window resizing*/
@@ -90,6 +103,8 @@
             var refSize = modelWork_slider.$Elmt.parentNode.clientWidth;
             var refSize = renderingWork_slider.$Elmt.parentNode.clientWidth;
             var refSize = drawingWork_slider.$Elmt.parentNode.clientWidth;
+            var refSize = softwareList_slider.$Elmt.parentNode.clientWidth;
+
 
             if (refSize) {
                 refSize = Math.min(refSize, 1920);
@@ -98,6 +113,7 @@
                 modelWork_slider.$ScaleWidth(refSize);
                 renderingWork_slider.$ScaleWidth(refSize);
                 drawingWork_slider.$ScaleWidth(refSize);
+                softwareList_slider.$ScaleWidth(refSize);
 
             }
             else {
