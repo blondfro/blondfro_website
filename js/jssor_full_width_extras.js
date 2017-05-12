@@ -93,7 +93,6 @@
         var modelWork_slider = new $JssorSlider$("modelWork_slider", jssor_2_options);
         var renderingWork_slider = new $JssorSlider$("renderingWork_slider", jssor_2_options);
         var drawingWork_slider = new $JssorSlider$("drawingWork_slider", jssor_3_options);
-        var softwareList_slider = new $JssorSlider$("softwareList_slider", jssor_4_options);
 
         /*responsive code begin*/
         /*remove responsive code if you don't want the slider scales while window resizing*/
@@ -103,7 +102,6 @@
             var refSize = modelWork_slider.$Elmt.parentNode.clientWidth;
             var refSize = renderingWork_slider.$Elmt.parentNode.clientWidth;
             var refSize = drawingWork_slider.$Elmt.parentNode.clientWidth;
-            var refSize = softwareList_slider.$Elmt.parentNode.clientWidth;
 
 
             if (refSize) {
@@ -113,7 +111,6 @@
                 modelWork_slider.$ScaleWidth(refSize);
                 renderingWork_slider.$ScaleWidth(refSize);
                 drawingWork_slider.$ScaleWidth(refSize);
-                softwareList_slider.$ScaleWidth(refSize);
 
             }
             else {

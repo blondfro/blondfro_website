@@ -155,6 +155,16 @@ td {
     border-radius: 50%;
 }
 
+.sfw-container {
+    display: inline-block;
+    position: relative;
+    width: 75px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
 .logo-container {
     display: inline-block;
     position: relative;
