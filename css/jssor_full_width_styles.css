@@ -52,9 +52,9 @@
     position: absolute;
     /* size of arrow element */
     width: 40px;
-    height: 58px;
+    height: 70px;
     cursor: pointer;
-    background: url('../images/a22.png') center center no-repeat;
+    background: url('../images/my-arrow.png') center center no-repeat;
     overflow: hidden;
 }
 
