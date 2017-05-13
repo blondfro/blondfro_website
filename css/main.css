@@ -155,19 +155,29 @@ td {
     border-radius: 50%;
 }
 
+#software-icon-list {
+    padding: 20px 0;
+}
+
 .sfw-container {
     display: inline-block;
     position: relative;
     width: 75px;
     padding-left: 20px;
-    padding-bottom: 20px;
-    vertical-align: middle;
+    /*padding-bottom: 20px;*/
+    vertical-align: top;
     overflow: hidden;
+}
+.sfw-label {
+    font-size: 8px;
+    vertical-align: bottom;
 }
 
 .connect-with-me {
 text-align: left;
 }
+
+
 
 .logo-container {
     display: inline-block;
@@ -181,3 +191,7 @@ text-align: left;
 .svg-content [
 
 ]
+
+.my-copyright {
+    vertical-align: bottom;
+}
