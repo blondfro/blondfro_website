@@ -8,6 +8,7 @@ body {
     color: whitesmoke;
     padding-top: 20px;
     background-color: black;
+    position: relative;
 }
 
 .navbar-inverse {
@@ -89,6 +90,11 @@ figcaption {
 
 .logo-name {
     vertical-align: bottom;
+}
+
+.title-row {
+    position: relative;
+    min-height: 300px;
 }
 
 /*@media screen and (max-width: 400px) {*/

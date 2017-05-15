@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|PT+Serif" rel="stylesheet">
 </head>
 
-<body>
+<body id="home">
 <nav class=" navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -35,9 +35,9 @@
                 <li><a href="#animations" class="hidden-xs">Animations</a></li>
                 <li><a href="#animations" class="visible-xs" data-toggle="collapse"
                        data-target=".navbar-collapse">Animation</a></li>
-                <li><a href="#3dwork" class="hidden-xs">3D Models</a></li>
+                <li><a href="#3dwork" class="hidden-xs">3D Work</a></li>
                 <li><a href="#3dwork" class="visible-xs" data-toggle="collapse"
-                       data-target=".navbar-collapse">3D Models</a></li>
+                       data-target=".navbar-collapse">3D Work</a></li>
                 <li><a href="#2dwork" class="hidden-xs">2D/Traditional</a></li>
                 <li><a href="#2dwork" class="visible-xs" data-toggle="collapse"
                        data-target=".navbar-collapse">2D/Traditional</a></li>
@@ -52,7 +52,7 @@
     </div><!-- /.container-fluid -->
 </nav>
 
-<header id="home">
+<header >
     <div id="main_banner"
          style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;visibility:hidden;">
         <!-- Loading Screen -->
@@ -85,7 +85,7 @@
     </div>
 </header>
 
-<section id="animations" class="row">
+<section id="animations" class="row title-row">
     <div class="row, col-sm-12, section_header">
         <h2>
             3D Animations
@@ -129,7 +129,7 @@
 </section>
 <hr/>
 
-<section id="3dwork">
+<section id="3dwork" class="title-row">
     <div class="row, col-sm-12, section_header">
         <h2>
             3D Work
@@ -341,7 +341,7 @@
 </section>
 <hr/>
 
-<section id="2dwork">
+<section id="2dwork" class="title-row">
     <div class="row, col-sm-12, section_header">
         <h2>
             2D Work
@@ -395,7 +395,7 @@
 </section>
 <hr/>
 
-<section id="about" class="row">
+<section id="about" class="row title-row">
     <div class="row, col-sm-12, section_header">
         <h2>
             About
@@ -506,7 +506,7 @@
             </div>
         </div>
 
-        <div>
+        <div id="game-credits">
             <h4>
                 Game Credits:
             </h4>
@@ -611,8 +611,11 @@
 
 <script src="js/jquery-3.2.0.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/classie.js"></script>
 <script src="js/jssor.slider-23.1.0.mini.js"></script>
 <script src="js/jssor_full_width_extras.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/scrolling.js"></script>
 
 </body>
 </html>
