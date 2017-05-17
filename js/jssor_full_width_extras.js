@@ -88,10 +88,33 @@
             $Cols: 7
         };
 
+        //web design option
+        var jssor_5_options = {
+            $AutoPlay: 0,
+            $SlideWidth: 700,
+            $Cols: 3,
+            $Align: 300,
+            // $SlideSpacing: 20,
+            $SlideDuration: 800,
+            $SlideEasing: $Jease$.$OutQuint,
+            $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions
+            },
+            $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+            },
+            $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+            }
+        };
+
+
         var jssor_main_banner = new $JssorSlider$("main_banner", jssor_1_options);
         var animation_slider = new $JssorSlider$("animation_slider", jssor_2_options);
         var modelWork_slider = new $JssorSlider$("modelWork_slider", jssor_2_options);
         var renderingWork_slider = new $JssorSlider$("renderingWork_slider", jssor_2_options);
+        var webWork_slider = new $JssorSlider$("webWork_slider", jssor_5_options);
         var drawingWork_slider = new $JssorSlider$("drawingWork_slider", jssor_3_options);
 
         /*responsive code begin*/
@@ -101,6 +124,7 @@
             var refSize = animation_slider.$Elmt.parentNode.clientWidth;
             var refSize = modelWork_slider.$Elmt.parentNode.clientWidth;
             var refSize = renderingWork_slider.$Elmt.parentNode.clientWidth;
+            var refSize = webWork_slider.$Elmt.parentNode.clientWidth;
             var refSize = drawingWork_slider.$Elmt.parentNode.clientWidth;
 
 
@@ -110,6 +134,7 @@
                 animation_slider.$ScaleWidth(refSize);
                 modelWork_slider.$ScaleWidth(refSize);
                 renderingWork_slider.$ScaleWidth(refSize);
+                webWork_slider.$ScaleWidth(refSize);
                 drawingWork_slider.$ScaleWidth(refSize);
 
             }
