@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blue Leopard Pub About</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/about-styles.css">
+
+</head>
+<body>
+
+<header id="home">
+    <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class=" navbar-left" href="index.html">
+                    <img class="img-responsive" src="images/logo-70pct.png"/>
+                </a>
+            </div>
+
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home" class="hidden-xs">Top</a></li>
+                    <li><a href="#home" class="visible-xs" data-toggle="collapse"
+                           data-target=".navbar-collapse">Top</a></li>
+                    <li><a href="#location" class="hidden-xs">Location & Hours</a></li>
+                    <li><a href="#location" class="visible-xs" data-toggle="collapse"
+                           data-target=".navbar-collapse">Location & Hours</a></li>
+                    <li><a href="#contact" class="hidden-xs">Contact</a></li>
+                    <li><a href="#contact" class="visible-xs" data-toggle="collapse"
+                           data-target=".navbar-collapse">Contact</a></li>
+                    <li><a href="menu.html" class="hidden-xs">Menu</a></li>
+                    <li><a href="menu.html" class="visible-xs" data-toggle="collapse"
+                           data-target=".navbar-collapse">Menu</a></li>
+                    <li><a href="entertainment.html" class="hidden-xs">Entertainment</a></li>
+                    <li><a href="entertainment.html" class="visible-xs" data-toggle="collapse"
+                           data-target=".navbar-collapse">Entertainment</a></li>
+
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</header>
+
+
+    <div class="col-md-12 row container">
+        <div class="landing text-center">
+            <h1>About Us</h1>
+            <p>
+                The Blue Leopard is the place to come for a relaxed pub atmosphere with modern decor. Our
+                drinks list that boasts a large range of European lagers and a superb wine selection.
+                We've been informed that our attic is haunted so in honor of our supernatural guests, we
+                have a Watch Party every Saturday night from 7pm until close. Live music seven nights a
+                week, and never a cover charge for entry.
+            </p>
+        </div>
+        <div id="about-heros" class="row col-md-12 text-center">
+            <figure class="col-md-4">
+                <img class="img-rounded"
+                     src="images/entrees/dinner-special.jpg"
+                     alt="Great Food">
+                <figcaption>Great Food</figcaption>
+            </figure>
+            <figure class="col-md-4">
+                <img class="img-rounded"
+                     src="images/live-comedy/c700x420.jpg"
+                     alt="Quality Entertainment">
+                <figcaption>Quality Entertainment</figcaption>
+            </figure>
+            <figure class="col-md-4">
+                <img class="img-rounded"
+                     src="images/pub-images/interior-with-people.jpg"
+                     alt="Summer Salad">
+                <figcaption>Old World Charm</figcaption>
+            </figure>
+
+
+        </div>
+
+
+        <section id="location" class="fill-screen fixed-attachment col-md-12">
+            <div class="color-overlay row">
+                <div class="col-md-6 featured_info text-center">
+                    <h3>Where We Are</h3>
+                    <p>
+                        The Blue Leopard is located near the riverfront at 9 Leopard Avenue, across from
+                        Fulcher Bridge. Walking distance from Berry Park and Central Station. Most guests
+                        prefer to get off on Central Station on the Green Line and walk two blocks west until
+                        they reach Leopard Avenue.  Limited parking is available around back.
+                    </p>
+                    <h3 class="col-md-4 col-md-push-4 row">Hours</h3>
+                    <div class="row col-md-12">
+                        <ul>
+                            <li>Monday 10am&ndash;2am</li>
+                            <li>Tuesday 10am&ndash;2am</li>
+                            <li>Wednesday 10am&ndash;2am</li>
+                            <li>Thursday 10am&ndash;2am</li>
+                            <li>Friday 10am&ndash;4am</li>
+                            <li>Saturday 10am&ndash;4am</li>
+                            <li>Sunday 10am&ndash;4am</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 featured_info">
+                    <h3>Map</h3>
+                    <div id="map" class="text-center">
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="fill-screen fixed-attachment col-md-12 ">
+            <div class="color-overlay row">
+                <div class=" col-md-4 col-md-push-4 featured_info text-center">
+                    <h3>Contact Us</h3>
+                    <p>
+                        We would love to hear from you!
+                    </p>
+
+                    <form>
+                        <div class="form-group">
+                            <label for="contact-name">Name</label>
+                            <input type="text" class="form-control"
+                                   id="contact-name" placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message">Email address</label>
+                            <input type="email" class="form-control"
+                                   id="contact-message" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-email"  class="form-control" rows="3"
+                                      placeholder="Type your message here"></textarea>
+                        </div>
+
+                        <button type="send" class="btn btn-default">Submit</button>
+                    </form>
+
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="social-media" class=" fill-screen text-center col-md-12">
+            <p>
+                Please like us and follow us on these social media sites:
+            </p>
+
+            <div class="follow-us-logo">
+
+                <img class="img-responsive"
+                     src="images/social-media/FB-f-Logo__blue_100.png"/>
+            </div>
+            <div class="follow-us-logo">
+
+                <img class="img-responsive"
+                     src="images/social-media/Twitter_Logo_Blue.png"/>
+            </div>
+            <div class="follow-us-logo">
+
+                <img class="img-responsive"
+                     src="images/social-media/badgeRGB.png"/>
+            </div>
+            <div class="follow-us-logo">
+
+                <img class="img-responsive"
+                     src="images/social-media/tumblr-logo-blue-512.png"/>
+            </div>
+
+
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="contact-info">
+            <h4>CONTACT US</h4>
+            <p>1.555.678.9876</p>
+            <p>contact@theblueleopa.rd</p>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyDaz1jH7kcZeMOjmAnD3BAPWYjLNQNdrlA &callback=myMap"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/scrolling.js"></script>
+    <script src="js/getGoogleMap.js"></script>
+
+
+</body>
+</html>

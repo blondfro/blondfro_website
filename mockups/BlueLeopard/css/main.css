@@ -1,0 +1,194 @@
+body {
+    position: relative;
+    font-family: 'Alegreya SC', serif, 'Alegreya Sans', sans-serif, calibri, candara, "segoe UI",
+    Optima, arial, sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    color: #f6e8c2;
+    background-color: rgb(15,15,15);
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+                    /*adjusing navbar styles*/
+nav.navbar.shrink {
+    min-height: 35px;
+}
+nav.shrink a {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-size: 15px;
+}
+nav.shrink .navbar-left img {
+    width: 50%;
+}
+nav.shrink .navbar-toggle {
+    padding: 4px 5px;
+    margin: 8px 15px 8px 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    -webkit-transition: all 1s; /*transitions for older browsers.  */
+    transition: all 1s; /*transitions for new browsers.  */
+}
+
+.navbar-inverse {
+    background-color: #120909;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #f6e8c2;
+    font-size: 1.2em;
+}
+
+.cbp-af-header-shrink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.9;
+}
+.cbp-af-header-shrink img {
+    width: 75%;
+}
+@media (max-width: 700px) {
+    /* sets the logo to scale properly on smaller devices*/
+    .navbar-header {
+        position: relative;
+    }
+    .navbar img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        /*width: 40%;*/
+        height: 80%;
+    }
+    .cbp-af-header-shrink img {
+        width: 12%;
+    }
+}
+@media screen and (min-width: 700px){
+    /*sets the location of the navbar's menu when on larger devices to be at the bottom
+    of the navbar.
+    */
+    .nav {
+        position:absolute;
+        bottom:0;
+        right:0;
+        padding: 5px 15px;
+    }
+}
+
+                /*adjusting h tags*/
+h1, h2, h3 {
+    text-align: center;
+}
+h1 {
+    color: #bf9e4b;
+    font-size: 3em;
+}
+h2 {
+    font-size: 2.5em;
+}
+h3 {
+    text-decoration: underline;
+    font-size: 2em;
+}
+h4 {
+    padding-top: 20px;
+}
+
+                /*header and footer styles*/
+
+header {
+    padding-top: inherit;
+    padding-bottom: 120px;
+    color: #AC8C47;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+
+                /*section styles*/
+section {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.section-description {
+    text-align: center;
+}
+
+
+.fill-screen {
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background: rgb(15,15,15) /* IE8 */;
+    background: rgba(15,15,15,0.8) /* all other browsers*/;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.img-rounded {
+    border-radius: 50px;
+}
+
+.hero-label {
+    font-size: 150%;
+    text-align: center;
+}
+
+/*button styles*/
+.btn-default {
+    background: rgb(155, 123, 69);
+    text-align: center;
+    border-radius: 8px;
+    /*max-width: 250px;*/
+}
+.btn-default:hover {
+    border-radius: 8px;
+    background-color: rgb(96, 79, 42);
+}
+.btn-default:active {
+    background-color: rgb(147, 124, 84);
+}
+.btn-default a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    font-style: normal;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.contact-info {
+    margin-top: 20px;
+}
+
+/*featured info styles*/
+.featured_info h3 {
+    border-bottom: 1px solid rgb(168, 157, 145);
+    /*text-decoration: underline;*/
+    font-style: italic;
+}
+.featured_info p {
+    font-style: normal;
+}
+.featured_info ul {
+    font-style: normal;
+    list-style: none;
+    padding-left: 0;
+}
+
+
+
+
+

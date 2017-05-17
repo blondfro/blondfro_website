@@ -1,0 +1,66 @@
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
+    color: rgba(255, 239, 163, 0.64);
+    font-size: 1.2em;
+}
+
+h3 {
+    text-decoration: none;
+}
+
+
+.color-overlay {
+    background: rgb(15,15,15) /* IE8 */;
+    background: rgba(0, 0, 0, 0.67) /* all other browsers*/;
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*padding-left: 20px;*/
+    /*padding-right: 20px;*/
+}
+
+
+.fill-screen {
+    background-size: cover;
+    background-position: center;
+}
+
+.fixed-attachment {
+    background-attachment: fixed;
+}
+
+#food-heros img {
+    width: 300px;
+    height: 169px;
+    padding: 8px 5px;
+}
+
+#starters {
+    background-color: rgb(15,15,15);
+    background-image: url("../images/starters/appe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#shareable {
+    background-color: rgb(15,15,15);
+    background-image: url("../images/starters/appe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#entrees {
+    background-color: rgb(15,15,15);
+    background-image: url("../images/entrees/dinner-entrees_social-l.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#desserts {
+    background-color: rgb(15,15,15);
+    background-image: url("../images/desserts/dessert1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,56 @@
+
+ul {
+    font-size: 1.2em;
+}
+
+li {
+    font-size: medium;
+    list-style: none;
+}
+
+h3 {
+    text-decoration: none;
+}
+
+#calendar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 640px){
+    #calendar {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    .fc button {
+        width: 4em;
+        font-size: 0.5em;
+    }
+}
+
+.fc-unthemed .fc-content, .fc-unthemed .fc-divider, .fc-unthemed .fc-list-heading td, .fc-unthemed .fc-list-view, .fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead {
+    border-color: #f6e8c2
+}
+
+.fc-event, .fc-event-dot {
+    background-color: #856b36;
+}
+
+.fc-prev-button, .fc-next-button, .fc-today-button,
+.fc-month-button, .fc-basicWeek-button, .fc-basicDay-button, .fcbutton, fc-state-default {
+    background: rgb(155, 123, 69);
+    color: rgb(226, 226, 226)
+}
+
+.fc-day-number, .fc-day-header {
+    color: white;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: #856b36;
+}
