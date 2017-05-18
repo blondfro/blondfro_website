@@ -18,9 +18,11 @@ body {
     font-size: 20px;
 }
 
-h1, h2, h3 {
-    padding: 20px;
+h1, h2, h3, h4, h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
 h4, h5 {
     text-align: center;
     text-decoration: underline;
@@ -46,8 +48,16 @@ figure {
     width: 500px;
 }
 figcaption {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
+    /*padding-left: 10px;*/
+    /*padding-right: 10px;*/
+}
+
+#webwork figure {
+    width: 640px;
+}
+#webwork figcaption {
+
 }
 
 .work_description {

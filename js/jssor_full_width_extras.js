@@ -92,7 +92,7 @@
         var jssor_5_options = {
             $AutoPlay: 0,
             $SlideWidth: 700,
-            $Cols: 3,
+            $Cols: 2,
             $Align: 300,
             // $SlideSpacing: 20,
             $SlideDuration: 800,
