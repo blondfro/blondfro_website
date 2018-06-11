@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg id="Layer_1" style="enable-background:new 0 0 95.8 95.8" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 95.8 95.8" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+	.st0{fill:#0AE5E5;}
+	.st1{fill:#009D9B;}
+	.st2{fill:url(#XMLID_53_);}
+	.st3{fill:url(#XMLID_55_);}
+	.st4{fill:url(#XMLID_56_);}
+	.st5{fill:url(#XMLID_57_);}
+	.st6{fill:#00ABAA;}
+	.st7{fill:#00D0D0;}
+</style>
+<switch>
+	<foreignObject y="0" x="0" height="1" width="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/">
+	</foreignObject>
+	<g>
+		<polygon id="XMLID_3_" points="13.1 91.8 0 77.2 24 4.4 47.7 28.6 71.8 4.4 95 76.3 80.2 90.6 68.4 71.8 47.5 67.6 25.4 71.6" class="st0"/>
+		<polygon id="XMLID_4_" points="0 77.2 43.6 33 47.7 28.6 71.8 4.4 25.4 71.6" class="st1"/>
+			<linearGradient id="XMLID_53_" y2="1.7209" gradientUnits="userSpaceOnUse" x2="-8.0496" gradientTransform="matrix(15.074 20.046 20.046 -15.074 132.4 218)" y1="1.7209" x1="-9.3941">
+			<stop stop-color="#00B8AF" offset="0"/>
+			<stop stop-color="#00B5AD" offset=".4189"/>
+			<stop stop-color="#00ADA7" offset=".6875"/>
+			<stop stop-color="#009E9C" offset=".913"/>
+			<stop stop-color="#009696" offset="1"/>
+		</linearGradient>
+		<polygon id="XMLID_5_" points="24 4.4 43.6 33 47.7 28.6" class="st2"/>
+			<linearGradient id="XMLID_55_" y2="5.0374" gradientUnits="userSpaceOnUse" x2="-2.9954" gradientTransform="matrix(32.706 8.3475 8.3475 -32.706 152.16 254.46)" y1="5.0374" x1="-4.3399">
+			<stop stop-color="#006E69" offset="0"/>
+			<stop stop-color="#005454" offset="1"/>
+		</linearGradient>
+		<polygon id="XMLID_6_" points="58.5 39.7 95 76.3 68.4 71.8 47.5 67.6" class="st3"/>
+			<linearGradient id="XMLID_56_" y2="7.3139" gradientUnits="userSpaceOnUse" x2="6.7224" gradientTransform="matrix(10.778 -22.141 -22.141 -10.778 141.8 264.65)" y1="7.3139" x1="5.3779">
+			<stop stop-color="#007575" offset="0"/>
+			<stop stop-color="#00807A" offset="1"/>
+		</linearGradient>
+		<polygon id="XMLID_7_" points="52 33 58.5 39.7 47.5 67.6 25.4 71.6" class="st4"/>
+			<linearGradient id="XMLID_57_" y2="1.8552" gradientUnits="userSpaceOnUse" x2="-4.1002" gradientTransform="matrix(27.422 28.943 28.943 -27.422 163.65 233.66)" y1="1.8552" x1="-5.4447">
+			<stop stop-color="#00C7C7" offset="0"/>
+			<stop stop-color="#00B5B5" offset="1"/>
+		</linearGradient>
+		<polygon id="XMLID_8_" points="95 76.3 58.5 39.7 52 33 71.8 4.4" class="st5"/>
+		<polygon id="XMLID_23_" points="80.2 90.6 95 76.3 68.4 71.8" class="st6"/>
+		<polygon id="XMLID_24_" points="58.5 39.7 71.8 4.4 52 33" class="st7"/>
+	</g>
+</switch>
+</svg>
